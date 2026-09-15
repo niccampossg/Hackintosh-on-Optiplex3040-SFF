@@ -1,0 +1,18 @@
+Relatório de hardware — Dell OptiPlex 3040 SFF
+Gerado a partir do OpCore Simplify (opção "Export hardware report")
+
+CPU: Intel Core i5-6500 (Skylake, 4C/4T, 3.2–3.6 GHz, 6MB cache, 65W, AVX2)
+Chipset: Intel H110
+GPU: Intel HD Graphics 530 (device-id 0x1912)
+Memória: 8 GB DDR3L 1600MHz
+Armazenamento: HD interno 500 GB (5400rpm)
+Áudio: Realtek ALC3234 (= ALC255) — VEN 10EC, DEV 0255
+Rede: Realtek RTL8111HSD-CG Gigabit
+Vídeo: HDMI + DisplayPort
+BIOS: versão mais recente publicada pela Dell — 1.20.1 (09/08/2022)
+
+SMBIOS usado como base: iMac17,1
+macOS testado: Monterey 12.7.6
+
+⚠️ Substitua o print real do OCS Compatibility Checker aqui, se desejar
+   documentar o hardware exato do seu boot (Passo 14 do guia).
