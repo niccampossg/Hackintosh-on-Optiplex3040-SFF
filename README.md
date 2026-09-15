@@ -52,7 +52,6 @@ OptiPlex3040-Hackintosh/
 ├── Screenshots/
 │   ├── about-this-mac.png
 │   └── geekbench.png
-├── README.md
 ├── LICENSE
 └── .gitignore
 ```
