@@ -29,6 +29,7 @@ EFI e documentação para rodar macOS em um Dell OptiPlex 3040 SFF, usando o boo
 - Rede (Wi-Fi/Bluetooth) não é abordada aqui — este build assume **Ethernet via cabo**.
 - **Durante toda a instalação, não utilize periféricos Bluetooth (mouse, teclado, etc).** Como este build não trata Bluetooth, use apenas periféricos **com fio (USB)** do início ao fim do processo — desde o boot do instalador até a configuração inicial do macOS — para evitar travamentos por falta de reconhecimento do dispositivo.
 - **Todo o guia está considerando o Windows como sistema operacional usado antes de migrar para o MacOS, também está considerando que não será usado dual-boot e sim que todo o disco será usado para o sistema MacOS.
+- **O sistema Monterey 12.7 só funciona com o boot-ars "-igfxvesa", mas ao realizar testes é posivel concluir que o modo VESA (metodo de utilização da placa de video integrada para dar imagem no monitor) pode limitar o uso de VRAM do computador, foi testado todas as possibilidades de argumento para tentar contornar o problema mas não obtive exito, mas caso não ligue para o pc ficar travado e com animações extremamnetes lentas é possivel usar. A pasta EFI do repositorio conta com o argumento "-igfxonln=1" que foi testado e não limita a VRAM no BigSur, então para uma experiencia mais fluida fica a recomendação do sistema BigSur.
 
 ## 🖥️ Resultado
 
